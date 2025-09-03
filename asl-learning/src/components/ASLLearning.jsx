@@ -17,7 +17,11 @@ const handleNext = () => {
 };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div
+      className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center"
+      style={{ backgroundImage: "url('/background_isle.png')" }}
+    >
+
       {/* Middle Section with Prev/Next Buttons */}
       <div className="flex items-center justify-center mb-8">
         {/* Prev Button */}
